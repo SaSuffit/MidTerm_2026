@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/main.css"></link>
+    <title>Study MidTerms June 2026</title>
+    <script src="assets/characters.js" defer></script>
+    <script src="assets/characterFunctions.js" defer></script>
+    <script src="assets/main.js" defer></script>
+</head> 
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#character">Character</a></li>
+            <li><a href="#bottom">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1 id="top">This is the midterm study</h1>
+    <p>Please refer to the console for output/inspect page:</p>
+  
+    <section class="fightSit">
+    <button id="fight">FIGHT!</button>
+    <button id="clear">CLEAR</button>
+    <p id="fighters"></p>
+    </section>
+
+<div id="grid-container">
+        <article class="character">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5km4tBfa1whUiOrgdx7ziNH4CQ_AMVmhHaZhcHWDsGA&s=10">
+        <h2 class="characterName"></h2>
+        <p class="describeChar"></p>
+        <section class="inv"></section>
+        <button class="selectedButton">Choose</button>
+        </article>
+
+        <article class="character">
+        <img src="https://th.bing.com/th/id/OIP.zhgYpWjFZlDcApV-Rel9dQHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7&rm=3">
+        <h2 class="characterName"></h2>
+        <p class="describeChar"></p>
+        <section class="inv"></section>
+        <button class="selectedButton">Choose</button>
+        </article>
+        
+        <article class="character">
+        <img src="https://th.bing.com/th/id/OIP.UcrUTPKmevFSTwYRRrtrEQHaK6?w=205&h=303&c=7&r=0&o=7&pid=1.7&rm=3">
+        <h2 class="characterName"></h2>
+        <p class="describeChar"></p>
+        <section class="inv"></section>
+        <button class="selectedButton">Choose</button>
+        </article>
+        
+        <article class="character">
+        <img src="https://d12rkrm9wnppc5.cloudfront.net/production/paperclip/pieces/pics/59798/d9f49aeb5e6d982cb1b145beff50e635/large/the-knight-templar.jpg?1612172439">
+        <h2 class="characterName"></h2>
+        <p class="describeChar"></p>
+        <section class="inv"></section>
+        <button class="selectedButton">Choose</button>
+        </article>
+
+        <article class="character">
+        <img src="data:image/webp;base64,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">
+        <h2 class="characterName"></h2>
+        <p class="describeChar"></p>
+        <section class="inv"></section>
+        <button class="selectedButton">Choose</button>
+        </article>
+        
+        <article class="character">
+        <img src="https://thfvnext.bing.com/th/id/OIP.wYei7-CxbpEUr_V0FrdWsQHaO7?w=173&h=349&c=7&r=0&o=7&cb=thfvnextfalcon2&pid=1.7&rm=3">
+        <h2 class="characterName"></h2>
+        <p class="describeChar"></p>
+        <section class="inv"></section>
+        <button class="selectedButton">Choose</button>
+        </article>
+</div>
+
+</main>
+
+
+
+<footer id="bottom">
+<p>Thanks for playing!</p>
+</footer>
+</body>
+</html>
